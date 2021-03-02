@@ -1,0 +1,77 @@
+/* Universal Styles */
+
+body{
+	font-family: Helvetica , sans-serif;
+	font-weight: regular;
+position: relative;
+}
+
+
+.mobile {
+	display: none;
+}
+
+/* Header */
+header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	
+} 
+
+.logo{
+	display: inline-flex;
+	padding: 24px 32px;
+} 
+
+nav a{
+	text-decoration: none;
+	margin:64px 16px;
+}
+
+.title-2{
+color: grey;
+opacity: 0.5;
+}
+
+nav{
+	padding: 24px 32px;
+
+}
+
+/* Banner Section */
+
+.banner-section{
+	
+	display: inline-flex;
+	background-color: grey;
+	align-items: center;
+	
+}
+.banner-image{
+padding: 32px 24px;
+
+}
+
+.banner-image img{
+	width: 100%;
+}
+
+.button {
+	text-decoration: none;
+	color: white;
+	border: solid;
+	padding:8px 0;
+	background-color: black;
+	border-color: black;
+}
+
+.banner-content{
+display: inline-block;
+width: 60%;
+float: center;
+padding: 64px 24px;
+text-align: justify;
+float: right;
+
+}
