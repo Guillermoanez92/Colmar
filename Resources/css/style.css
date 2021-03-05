@@ -16,6 +16,10 @@ a{
 	display: none;
 }
 
+img{
+	display: inline-block;
+}
+
 /* Header */
 header{
 
@@ -50,21 +54,21 @@ nav{
 
 /* Banner Section */
 
-.banner-section{
-    background-color: lightgray;
-    display: flex;
-    align-items: center;
+section .banner-section{
+    background-color: lightgray;   
     flex-wrap: wrap;
+    display: inline-block;
 }
 .banner-section img{
-    max-width: 60%;
+    width: 60%;
     margin: 32px 24px;
+    float: left;
 }
-.banner-content{
-    display: inline-flex;
-    flex-direction: column;
-    width: 40%;
-    margin: 24px 0;
+
+.banner-content {
+align-items: center;
+margin: auto 24px ;
+
 }
 
 .button {
@@ -76,7 +80,7 @@ nav{
     font-weight: 400;
     margin-bottom: 32px;
     font-size: 1.5rem;
-    
+    width: 65%;
 }
 
 
