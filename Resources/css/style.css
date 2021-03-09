@@ -1,87 +1,14 @@
 /* Universal Styles */
 
-body{
-	font-family: Helvetica , sans-serif;
-	font-weight: regular;
-    position: relative;
-    
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
 }
 
 a{
-	text-decoration: none;
+    text-decoration: none;
 }
-
 
 .mobile {
-	display: none;
+    display:none;
 }
-
-img{
-	display: inline-block;
-}
-
-/* Header */
-header{
-
-	display: flex;
-	justify-content: space-between;
-	height: 64px;
-	z-index: 1;
-} 
-
-.logo{
-	display: inline-flex;
-	padding: 24px 32px;
-} 
-
-nav a{
-	text-decoration: none;
-	margin:64px 16px;
-	color: black;
-}
-
-.title-2{
-color: lightgray;
-opacity: 0.8;
-}
-
-nav{
-	padding: 24px 32px;
-
-}
-
-
-
-/* Banner Section */
-
-section .banner-section{
-    background-color: lightgray;   
-    flex-wrap: wrap;
-    display: inline-block;
-}
-.banner-section img{
-    width: 60%;
-    margin: 32px 24px;
-    float: left;
-}
-
-.banner-content {
-align-items: center;
-margin: auto 24px ;
-
-}
-
-.button {
-    color: white;
-    background: #444444;
-    padding: 8px;
-    margin-bottom: 40px;
-    text-align: center;
-    font-weight: 400;
-    margin-bottom: 32px;
-    font-size: 1.5rem;
-    width: 65%;
-}
-
-
-
