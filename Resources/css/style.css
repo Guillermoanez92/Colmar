@@ -3,6 +3,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+    color: black;
 }
 
 a{
@@ -12,3 +13,76 @@ a{
 .mobile {
     display:none;
 }
+
+/* Header & Nav */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+    position: relative;
+    margin: 32px 0px;
+    height: 64px;
+
+}
+
+
+
+.page-title{
+    display: inline-flex;
+    margin-left: 24px;
+    align-items: center;
+
+}
+
+#page-title-1{
+    color: gray;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style: none;
+    margin-right: 24px;
+
+}
+
+nav ul li {
+    padding-right: 16px;
+}
+
+/* Banner Section */
+
+.banner{
+    background-color: lightgray;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+}
+
+.banner img{
+    max-width: 60%;
+    
+    margin: 32px 24px;
+    align-items: center;
+
+}
+
+.banner-content{
+    max-width: 40%;
+    outline: 1px solid red;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 240px 12px;
+    align-items: left;
+}
+
+
+
+
+
+
+
+
