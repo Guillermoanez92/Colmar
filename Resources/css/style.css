@@ -4,6 +4,7 @@ body {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: black;
+    box-sizing: border-box;
 }
 
 a{
@@ -55,14 +56,12 @@ nav ul li {
 
 .banner{
     background-color: lightgray;
-    display: inline-flex;
-    position: relative;
+    display: flex;
     align-items: center;
-    width: 100%;
 }
 
 .banner img{
-    max-width: 60%;
+    width: 60%;
     
     margin: 32px 24px;
     align-items: center;
@@ -70,13 +69,13 @@ nav ul li {
 }
 
 .banner-content{
-    max-width: 40%;
     outline: 1px solid red;
-    position: absolute;
     display: inline-flex;
     flex-direction: column;
-    margin: 240px 12px;
+    margin-left: 240px 12px;
     align-items: left;
+    align-items: center;
+
 }
 
 
