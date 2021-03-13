@@ -12,6 +12,7 @@ body {
 
 a{
     text-decoration: none;
+    color: unset;
 }
 
 
@@ -72,6 +73,7 @@ nav ul li {
     align-items: left;
     padding-right: 72px;
     margin-left: 24px;
+    margin-bottom: 36px;
 
 }
 
@@ -90,8 +92,10 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
-    margin: 8px 0;
+   padding: 8px 0;
+    background-color: gray;
+    color: white;
+    height: 36px;
 }
 
 
