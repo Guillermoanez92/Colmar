@@ -5,15 +5,15 @@ body {
     font-size: 16px;
     color: black;
     box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 a{
     text-decoration: none;
 }
 
-.mobile {
-    display:none;
-}
 
 /* Header & Nav */
 
@@ -58,24 +58,40 @@ nav ul li {
     background-color: lightgray;
     display: flex;
     align-items: center;
+    padding: 32px 24px;
 }
 
 .banner img{
     width: 60%;
-    
-    margin: 32px 24px;
-    align-items: center;
+
 
 }
 
 .banner-content{
     outline: 1px solid red;
-    display: inline-flex;
-    flex-direction: column;
-    margin-left: 240px 12px;
     align-items: left;
-    align-items: center;
+    padding-right: 72px;
+    margin-left: 24px;
 
+}
+
+.banner-content h2{
+    font-size: 55px;
+    line-height: 1.2;
+}
+
+.banner-content h4{
+    font-size: 30px;
+}
+
+.button-primary{
+    font-size: 24px;
+    align-content:  center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 8px 0;
 }
 
 
