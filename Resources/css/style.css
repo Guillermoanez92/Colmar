@@ -69,7 +69,6 @@ nav ul li {
 }
 
 .banner-content{
-    outline: 1px solid red;
     align-items: left;
     padding-right: 72px;
     margin-left: 24px;
@@ -99,6 +98,16 @@ nav ul li {
 }
 
 
+/* Information Section */
+ .information{
+    display: flex;
+    padding: 32px 24px;
+}
+
+.information-article-main{
+    outline: 1px solid red;
+    width: 60%;
+}
 
 
 
