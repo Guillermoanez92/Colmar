@@ -114,9 +114,12 @@ nav ul li {
 
 }
 
-.primary h3{
+.primary h3, h4 , p{
 margin-bottom: 24px;
+width: 100%;
 }
+
+
 
  
 .primary img{
@@ -125,28 +128,38 @@ margin-bottom: 24px;
 
 
 .secondary {
-    width: 40%;
+    width: 37%;
     margin-left: 24px;
     display: inline-flex;
     flex-direction: column;
-    height: auto;
  }
 
 
  .secondary .information-article{
    outline: 1px solid red;
- }
+   display: flex;
+   align-items: center;
+   height: auto;
+   
 
- .secondary .information-article h3,p{
+
+}
+
+ .secondary .information-article-text {
     width: 65%;
-    display: inline;
+
  }
 
 .secondary .information-article img{
     width: 35%;
-    height: auto;
+    height: 35%;
     padding: 16px;
 }
+
+.mobile{
+    display: none;
+}
+
 
 
 
